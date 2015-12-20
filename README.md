@@ -6,7 +6,11 @@ Android weather app.
 
 * Sends a daily notification with day's weather details.
 
-* Refreshes data every every 3 hours (if the build version is less than KitKat) or everyone 1 hour (if the build version is greater than or equal to KitKat) in the backend.
+* Uses SQLite to store weather data.
+
+* Refreshes data every every 3 hours (if the build version is less than KitKat) or everyone 1 hour (if the build version is greater than or equal to KitKat) in the database.
+
+* To build and run the app, you will need to get an API key from http://openweathermap.org/ and replace it in WeatherAppConstants class. <code>public static final String OW_APIID_STRING = "OPEN_WEATHEER_API_KEY_HERE";</code>
 
 
 ###Screenshots:
